@@ -215,7 +215,7 @@ Now we can compare the three models:
 | :---------: | :--------------------------------: | :----------------------------: |
 |     RNN     |             20,518,917             |             28.22              |
 |     CNN     |             37,351,685             |             34.40              |
-| Transformer | <font color = red>9,038,853</font> | $\color{red}{35.73}$ |
+| Transformer | <font color = red>9,038,853</font> | <font color = red>35.73</font> |
 
 # Reference
 
