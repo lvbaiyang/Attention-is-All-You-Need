@@ -53,7 +53,7 @@ We perform three experiments on <a href='https://arxiv.org/abs/1406.1078'> RNN</
 
 ### Parameter Number
 
-![paranumber](RNN\paranumber.png)
+![paranumber](RNN/paranumber.png)
 
 We have 20,518,917 parameters to train.
 
@@ -61,11 +61,11 @@ We have 20,518,917 parameters to train.
 
 As we use a small dataset, 8 epoch is enough for out model.
 
-![RNNLoss](RNN\RNNLoss.jpg)
+![RNNLoss](RNN/RNNLoss.jpg)
 
 ### Results
 
-![predict](RNN\predict.png)
+![predict](RNN/predict.png)
 
 Here we show three samples for our train_data, valid_data and test_data. 'trg' is the true target sentence, while 'predicted trg' if the predicted sentence using our model.
 
@@ -77,7 +77,7 @@ trg = ['a', 'black', 'dog', 'and', 'a', 'spotted', 'dog', 'are', 'fighting']
 predicted trg = ['a', 'black', 'dog', 'and', 'a', 'spotted', 'dog', 'fighting', '.', '<eos>']
 ```
 
-![RNNAttention_train](RNN\RNNAttention_train.jpg)
+![RNNAttention_train](RNN/RNNAttention_train.jpg)
 
 For valid_data:
 
@@ -87,7 +87,7 @@ trg = ['a', 'female', 'playing', 'a', 'song', 'on', 'her', 'violin', '.']
 predicted trg = ['a', 'woman', 'playing', 'a', 'song', 'on', 'her', 'violin', '.', '<eos>']
 ```
 
-![RNNAttention_valid](RNN\RNNAttention_valid.jpg)
+![RNNAttention_valid](RNN/RNNAttention_valid.jpg)
 
 For test_data:
 
@@ -97,7 +97,7 @@ trg = ['the', 'person', 'in', 'the', 'striped', 'shirt', 'is', 'mountain', 'clim
 predicted trg = ['the', 'person', 'in', 'the', 'striped', 'shirt', 'is', 'climbing', 'on', 'a', 'mountain', '.', '<eos>']
 ```
 
-![RNNAttention_test](RNN\RNNAttention_test.jpg)
+![RNNAttention_test](RNN/RNNAttention_test.jpg)
 
 ### BLEU score
 
@@ -107,17 +107,17 @@ BLEU score = 28.22
 
 ### Parameter Number
 
-![paremeter number](\CNN\paremeter number.png)
+![paremeter number](CNN/paremeter number.png)
 
 We have 37,351,685 trainable parameters.
 
 ### Loss
 
-![CNNLoss](CNN\CNNLoss.jpg)
+![CNNLoss](CNN/CNNLoss.jpg)
 
 ### Results
 
-![predict](CNN\predict.png)
+![predict](CNN/predict.png)
 
 For train_data:
 
@@ -127,7 +127,7 @@ trg = ['a', 'little', 'girl', 'climbing', 'into', 'a', 'wooden', 'playhouse', '.
 predicted trg = ['a', 'little', 'girl', 'is', 'climbing', 'into', 'a', 'playhouse', 'made', 'of', 'wood', '.', '<eos>']
 ```
 
-![CNNAttention_train](CNN\CNNAttention_train.jpg)
+![CNNAttention_train](CNN/CNNAttention_train.jpg)
 
 For valid_data:
 
@@ -137,7 +137,7 @@ trg = ['a', 'boy', 'wearing', 'headphones', 'sits', 'on', 'a', 'woman', "'s", 's
 predicted trg = ['a', 'boy', 'in', 'headphones', 'sits', 'on', 'the', 'shoulders', 'of', 'a', 'woman', '.', '<eos>']
 ```
 
-![CNNAttention_valid](CNN\CNNAttention_valid.jpg)
+![CNNAttention_valid](CNN/CNNAttention_valid.jpg)
 
 For test_data:
 
@@ -147,7 +147,7 @@ trg = ['a', 'man', 'in', 'a', 'vest', 'is', 'sitting', 'in', 'a', 'chair', 'and'
 predicted trg = ['a', 'man', 'in', 'a', 'vest', 'is', 'sitting', 'on', 'a', 'chair', 'holding', '<unk>', '.', '<eos>']
 ```
 
-![CNNAttention_test](CNN\CNNAttention_test.jpg)
+![CNNAttention_test](CNN/CNNAttention_test.jpg)
 
 ### BLEU score
 
@@ -157,7 +157,7 @@ BLUE score = 34.40
 
 ### Parameter Number
 
-![parameter](transformer\parameter.png)
+![parameter](transformer/parameter.png)
 
 We have 9,038,853 trainable parameters.
 
